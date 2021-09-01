@@ -9,6 +9,4 @@ function childGenerator(nameContainElement, typeOfChild, nameChildClass, numberO
     }
 }
 
-childGenerator("container", "div", "square", 50);
-
-// document.getElementById(nameElement).innerHTML = `<div class="${nameSquareClass}">${i}</div>`
+childGenerator("container", "div", "square", prompt('Inserisci un numero di quadrati'));
