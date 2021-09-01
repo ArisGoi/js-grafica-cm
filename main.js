@@ -10,3 +10,14 @@ function childGenerator(nameContainElement, typeOfChild, nameChildClass, numberO
 }
 
 childGenerator("container", "div", "square", prompt('Inserisci un numero di quadrati'));
+
+document.getElementById('container').addEventListener('click',
+    function(event){
+
+        let nCella = event.target.innerHTML;
+
+        alert('hai fatto click sulla cella numero: ' + nCella);
+        
+        event.target.classList.add('selected');
+    }
+);
