@@ -1,0 +1,31 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px;
+}
+
+.square{
+    background-color: pink;
+    border: 2px solid darkslategray;
+    height: 100px;
+    width: 100px;
+    font-size: 25px;
+    color: white;
+}
+
+.square.selected{
+    background-color: blue;
+    border: 2px solid darkblue;
+}
